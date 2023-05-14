@@ -13,7 +13,7 @@
 			"destination": "/robots.txt"
 		},
 		{
-			"source": "/:path(.+\\.(jpg|jpeg|png|gif))",
+			"source": "/:path(.+[.](jpg|jpeg|png|gif))",
 			"destination": "https://upload.thwiki.cc/avatars/:path"
 		}
 	],
