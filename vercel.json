@@ -1,0 +1,21 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"github": {
+		"silent": true
+	},
+	"rewrites": [
+		{
+			"source": "/",
+			"destination": "/default_l.jpg"
+		},
+		{
+			"source": "/robots.txt",
+			"destination": "/robots.txt"
+		},
+		{
+			"source": "/:path(.+\\.(jpg|jpeg|png|gif))",
+			"destination": "https://upload.thwiki.cc/avatars/:path"
+		}
+	],
+	"regions": ["sfo1"]
+}
