@@ -18,13 +18,7 @@
 		},
 		{
 			"source": "/:path(.+[.](?:jpg|jpeg|png|gif))",
-			"destination": "https://upload.thwiki.cc/avatars/:path"
-		}
-	],
-	"headers": [
-		{
-			"source": "/(.*)",
-			"headers": [{ "key": "Cache-Control", "value": "max-age=315360000, s-maxage=86400, stale-while-revalidate=86400, public" }]
+			"destination": "/api"
 		}
 	],
 	"regions": ["sfo1"]

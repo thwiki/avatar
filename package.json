@@ -1,0 +1,17 @@
+{
+	"name": "avatar",
+	"version": "1.0.0",
+	"description": "THBWiki user avatar cdn",
+	"type": "module",
+	"scripts": {
+		"start": "vercel dev"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"vercel": "^29.3.0"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.11"
+	}
+}
